@@ -1,0 +1,25 @@
+.main-page-content {
+	padding-top:50px;
+}
+
+.main-logo img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom:20px;
+}
+
+@media(max-width: 767px){
+	.navbar-toggle{
+		margin:23px 0;
+	}
+
+	.navbar-brand, .navbar-nav li, .navbar-nav li a {
+		height:80px;
+		line-height: 80px;
+	}
+
+	.navbar-nav li a{
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+}

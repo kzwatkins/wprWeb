@@ -1,0 +1,12 @@
+<ul class="nav nav-tabs">
+	<%= favicon_link_tag 'favicon.ico' %>
+	<div class="navbar-header">
+		<div class="container-fluid">
+      		<a class="navbar-brand" href="<%= root_path %>">
+        		<img alt="Brand" src="/assets/wprlogo.png">
+      		</a>
+  		</div>
+    </div>
+  <li class="<%= yield(:home) %>"><%= link_to "Home", root_path %></li>
+  <li class="<%= yield(:contact) %>"><%= link_to "Contact", contact_path %></li>
+  </ul>
