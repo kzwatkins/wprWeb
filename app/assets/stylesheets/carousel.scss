@@ -21,6 +21,14 @@ body {
   z-index: 20;
 }
 
+.brand-align{
+	vertical-align: middle;
+}
+
+.big-divide{
+	margin-top: 750px;
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;

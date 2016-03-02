@@ -1,5 +1,9 @@
-<div class="container">
+<div class="container big-divide">
 <footer>
-	<p>&copy; 2016 Watkins Proactive Research LLC</p>
+	<ul class="list-inline">
+		<li>&copy; 2016 Watkins Proactive Research LLC &nbsp;&nbsp;&nbsp;|</li>
+	  <li class="<%= yield(:home) %>"><%= link_to "Home", root_path %> &nbsp;&nbsp;&nbsp;|</li>
+  <li class="<%= yield(:contact) %>"><%= link_to "Contact", contact_path %></li>
+</ul>
 </footer>
 </div>
