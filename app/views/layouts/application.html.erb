@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= yield (:title) %> | WPR </title>
+  <title><%= yield (:title) %> | WPR</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<%= render 'shared/navbar' %>
 	<div class="main-page-content <%= controller.controller_name %>">
 		<div class="main-logo">
-			<img src="/assets/wprfullLogo.png" alt="WPR Logo" width="50%">
+			<img src="assets/wprfullLogo.png" alt="WPR Logo" width="50%">
 		</div>
 		
 		<%= yield %>
 	</div>
+<div class="container">
 
+		<%= render "shared/footer" %>
+</div>
 </body>
 </html>

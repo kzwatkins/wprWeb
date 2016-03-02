@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
 get 'index' => "home#index", as: :home
 get 'contact' => "home#contact", as: :contact
-
+get 'carousel' => "home#carousel", as: :carousel
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
