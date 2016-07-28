@@ -16,6 +16,10 @@ Rails.application.routes.draw do
 
 get 'index' => "home#carousel", as: :home
 get 'contact' => "home#contact", as: :contact
+get 'capabilities' => "home#capabilities", as: :capabilities
+get 'sandbox' => "home#sandbox", as: :sandbox
+
+
 # get 'index' => "home#index", as: :home
 # get 'carousel' => "home#carousel", as: :carousel
 

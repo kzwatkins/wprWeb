@@ -12,3 +12,8 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( favicon.ico )
 Rails.application.config.assets.precompile += %w( orangecheckers.png )
+Rails.application.config.assets.precompile += %w( wpr_capabilities.pdf )
+Rails.application.config.assets.precompile += %w( pixi.min.js )
+Rails.application.config.assets.precompile += %w( pdf.js )
+Rails.application.config.assets.precompile += %w( pdf.worker.js )
+Rails.application.config.assets.precompile += %w( compatibility.js )

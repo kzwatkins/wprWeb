@@ -7,4 +7,11 @@ class HomeController < ApplicationController
   
   def carousel
   end
+  
+  def capabilities
+  end
+  
+  def sandbox
+  end
+
 end
